@@ -12,6 +12,7 @@
     "pretest": "tsc",
     "test": "tap test.js",
     "posttest": "tslint index.ts --project tsconfig.json",
+    "prepack": "tsc",
     "docs": "tsc && documentation readme index.js --section=API"
   },
   "bin": {
