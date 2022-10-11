@@ -1,7 +1,7 @@
 {
-  "name": "sharedstreets-api",
-  "version": "0.3.0",
-  "description": "SharedStreets API",
+  "name": "sharedstreets-download-tile",
+  "version": "0.4.0",
+  "description": "SharedStreets Tile Downloader",
   "main": "index",
   "files": [
     "index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharedstreets/sharedstreets-api.git"
+    "url": "git+https://github.com/sharedstreets/sharedstreets-download-tile.git"
   },
   "keywords": [
     "SharedStreets",
@@ -28,11 +28,14 @@
     "Downloader"
   ],
   "author": "Denis Carriere <@DenisCarriere>",
+  "contributors": [
+    "Ben Scholer <@bscholer>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sharedstreets/sharedstreets-api/issues"
+    "url": "https://github.com/sharedstreets/sharedstreets-download-tile/issues"
   },
-  "homepage": "https://github.com/sharedstreets/sharedstreets-api#readme",
+  "homepage": "https://github.com/sharedstreets/sharedstreets-download-tile#readme",
   "type": "module",
   "devDependencies": {
     "@types/meow": "^5.0.0",
