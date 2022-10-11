@@ -46,11 +46,16 @@ export function downloadTile(tile: Tile, layer: Layer, options: {
     // Handle outputs in JSON
     if (options.output === "json") {
       switch (layer) {
-      case "geometry": return sharedstreetsPbf.geometry(data);
-      case "intersection": return sharedstreetsPbf.intersection(data);
-      case "metadata": return sharedstreetsPbf.metadata(data);
-      case "reference": return sharedstreetsPbf.reference(data);
-      default: throw new Error("invalid layer");
+        case "geometry":
+          return sharedstreetsPbf.geometry(data);
+        case "intersection":
+          return sharedstreetsPbf.intersection(data);
+        case "metadata":
+          return sharedstreetsPbf.metadata(data);
+        case "reference":
+          return sharedstreetsPbf.reference(data);
+        default:
+          throw new Error("invalid layer");
       }
     }
     // Data in PBF

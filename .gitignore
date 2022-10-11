@@ -58,3 +58,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# There is no reason for this to be the VCS
+test/
+
+# JetBrains editor stuff
+.idea/

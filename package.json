@@ -33,18 +33,20 @@
     "url": "https://github.com/sharedstreets/sharedstreets-api/issues"
   },
   "homepage": "https://github.com/sharedstreets/sharedstreets-api#readme",
+  "type": "module",
   "devDependencies": {
-    "@types/meow": "*",
-    "@types/tape": "*",
-    "documentation": "*",
-    "tap": "*",
-    "tape": "*",
-    "tslint": "*",
-    "typescript": "*"
+    "@types/meow": "^5.0.0",
+    "@types/tape": "^4.13.2",
+    "@types/node": "^16.11.65",
+    "documentation": "^14.0.0",
+    "tap": "^16.3.0",
+    "tape": "^5.6.1",
+    "tslint": "^5.20.1",
+    "typescript": "^4.8.4"
   },
   "dependencies": {
-    "axios": "*",
-    "meow": "*",
-    "sharedstreets-pbf": "*"
+    "axios": "^1.1.2",
+    "meow": "^11.0.0",
+    "sharedstreets-pbf": "^0.8.0"
   }
 }
